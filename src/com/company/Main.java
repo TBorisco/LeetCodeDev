@@ -8,13 +8,17 @@ public class Main {
 	// write your code here
 
         ListNode listNode=new ListNode(1);
-         listNode.next=new ListNode(2);
-         listNode.next.next=new ListNode(3);
-         listNode.next.next.next=new ListNode(4);
-         listNode.next.next.next.next=new ListNode(5);
+         listNode.next=new ListNode(4);
+         listNode.next.next=new ListNode(5);
 
+        ListNode listNode2=new ListNode(1);
+        listNode2.next=new ListNode(3);
+        listNode2.next.next=new ListNode(4);
 
-       var ans= remove_nth_node_from_end_of_list_leetcode19.removeNthFromEnd(listNode,2);
+        ListNode listNode3=new ListNode(2);
+        listNode3.next=new ListNode(6);
+
+       var ans= merge_k_sorted_lists.mergeKLists(new ListNode[]{listNode,listNode2,listNode3});
 
         int[] ar= new int[]{2,34,53,53,21,44,55};
        System.out.println(ar['2'-'2']);
