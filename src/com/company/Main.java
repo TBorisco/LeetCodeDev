@@ -7,18 +7,10 @@ public class Main {
     public static void main(String[] args) {
 	// write your code here
 
-        ListNode listNode=new ListNode(1);
-         listNode.next=new ListNode(4);
-         listNode.next.next=new ListNode(5);
 
-        ListNode listNode2=new ListNode(1);
-        listNode2.next=new ListNode(3);
-        listNode2.next.next=new ListNode(4);
 
-        ListNode listNode3=new ListNode(2);
-        listNode3.next=new ListNode(6);
 
-       var ans= merge_k_sorted_lists.mergeKLists(new ListNode[]{listNode,listNode2,listNode3});
+       var ans= remove_element.RemoveElement(new int[]{0,1,2,2,3,0,4,2},2);
 
         int[] ar= new int[]{2,34,53,53,21,44,55};
        System.out.println(ar['2'-'2']);
