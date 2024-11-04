@@ -8,9 +8,37 @@ public class Main {
 	// write your code here
 
 
+        String x= "hello";
+        String p="ll";
+
+        String sub= x.substring(2,2+2);
+
+        int r=1;
+        int u= 3;
+        int quotient= 0;
+
+        int target=10;
+
+        while(u<target){
+
+            int temp=u;
+
+            while((temp<<1)<target){
+                temp<<=1;
+                quotient+=2;
+
+            }
+
+            target-=u;
 
 
-       var ans= remove_element.RemoveElement(new int[]{0,1,2,2,3,0,4,2},2);
+
+        }
+
+
+        System.out.println(quotient);
+
+       //var ans= find_the_index_of_the_first_occurrence_in_a_string.strStr("hello","ll");
 
         int[] ar= new int[]{2,34,53,53,21,44,55};
        System.out.println(ar['2'-'2']);
